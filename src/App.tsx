@@ -1,10 +1,14 @@
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
+import ROUTER from './routes/router';
 
 function App() {
   return (
-    <div className="App">
-      Avatar memory game
-    </div>
+    <Router>
+      <Switch>
+          <Route {...ROUTER.INITIAL} />
+      </Switch>
+    </Router>
   );
 }
 
