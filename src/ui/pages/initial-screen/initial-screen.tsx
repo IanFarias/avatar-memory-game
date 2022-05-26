@@ -6,8 +6,8 @@ const InitialScreen = () => {
     <>
       <header className="initial--header ">
         <div className="content-wrapper ">
-          <img src={logo} alt="" />
-          <img src={appa} alt="" />
+          <img src={logo} alt="Simbolos dos quatro elementos, agua, fogo, terra e ar" />
+          <img src={appa} alt="Personagem Appa voando" />
         </div>
       </header>
       <main>
