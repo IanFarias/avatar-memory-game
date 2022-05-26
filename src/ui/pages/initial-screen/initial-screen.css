@@ -1,6 +1,42 @@
 .initial--header {
-    height: 80px;
-
-    background-color: red;
     width: 100%;
+    min-height: 80px;
+
+    border-radius: 2px;
+    background-color: #038C7F;
+    box-shadow: 0px 3px 1px #027373;    
 }
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 6px;
+}
+
+.content-wrapper > img {
+    width: 80px;
+}
+
+.content-wrapper > img:nth-of-type(2) {
+    width: 232px;
+    max-height: 80px;
+    object-fit: cover;
+}
+
+.content-wrapper > span {
+    color: #F2E7DC;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/*
+
+#027373
+#038C7F
+#A9D9D0
+#F2E7DC
+#0D0D0D
+
+*/
