@@ -1,5 +1,6 @@
 const PATHS = {
-    initial: '/'
+    INITIAL: "/",
+    GAME: "/teste",
 }
 
-export default PATHS 
+export default PATHS  

@@ -1,8 +1,16 @@
+import { useHistory } from 'react-router-dom'
 import { appa, logo } from '../../../assets'
+import PATHS from '../../../routes/paths'
 import { Button } from '../../components/button/button'
 import './initial-screen.css'
 
 const InitialScreen = () => {
+  const history = useHistory()
+
+  const handleClick = () => {
+    history.push(PATHS.GAME)
+  }
+
   return (
     <>
       <header className="initial--header">
@@ -18,7 +26,7 @@ const InitialScreen = () => {
             <h2>Jogo da memória</h2>
           </div>
           <div className="initial-screen--options-container">
-            <Button onClick={() => console.log('COMECAR')} variant="start">
+            <Button onClick={handleClick} variant="start">
               Começar
             </Button>
           </div>

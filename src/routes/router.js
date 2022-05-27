@@ -1,11 +1,15 @@
-import { InitialScreen } from "../ui/pages";
+import { InitialScreen, MemoryGameScreen } from "../ui/pages";
 import PATHS from "./paths";
 
 const ROUTER = {
     INITIAL: {
-        path: PATHS.initial,
+        path: PATHS.INITIAL,
         component: () => <InitialScreen />
-    }
+    },
+    GAME: {
+        path: PATHS.GAME,
+        component: () => <MemoryGameScreen />
+    },
 }
 
-export default ROUTER
+export default ROUTER 
