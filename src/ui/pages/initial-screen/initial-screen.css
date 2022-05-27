@@ -34,7 +34,7 @@
     justify-content: center;
     background-color: var(--terciary);
     background-position: center;
-    background-image: url(../../../assets/img/initial-background.jpg);
+    background-image: url(../../../assets/img/initialbackground.jpg);
 }
 
 .initial-screen--wrapper  {
