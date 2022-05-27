@@ -1,4 +1,5 @@
 import './button.css'
+import './variants/button-primary.css'
 
 type ButtonProps = {
   children?: React.ReactNode
@@ -12,8 +13,18 @@ type ButtonProps = {
   id?: string
 }
 
+interface ButtonVariants {
+  [key: string]: string
+}
+
+const BUTTON_VARIANTS: ButtonVariants = {
+  primary: 'button-primary',
+  secondary: 'button-secondary',
+  start: 'button-secondary',
+}
+
 const getButtonVariant = (variant: string | undefined): string => {
-  return variant || ''
+  return variant ? BUTTON_VARIANTS[variant] : ''
 }
 
 const Button = ({ variant, children, onClick, isDisabled, ...props }: ButtonProps) => {

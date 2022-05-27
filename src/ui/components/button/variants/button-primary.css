@@ -1,0 +1,19 @@
+.button-primary {
+    width: 350px;
+    color: var(--white);
+    border-radius: 5px;
+    background-color: var(--buttonPrimary);
+    transition: .2s background-color;
+}
+
+.button-primary:hover {
+    background-color: var(--dark);
+}
+
+.button-primary:active {
+    background-color: var(--buttonPrimary);
+}
+
+.button-primary:disabled {
+    background-color: var(--buttonDisabled);
+} 
