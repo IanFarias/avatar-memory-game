@@ -2,4 +2,8 @@
   text-align: center;
 }
 
+@font-face {
+  font-family: avatarFont;
+  src: url(./assets/fonts/herculanum.ttf);
+}
 

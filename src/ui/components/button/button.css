@@ -1,0 +1,14 @@
+.base-button {
+    border: none;
+    cursor: pointer;
+    min-width: 44px;
+    font-size: 18px;
+    min-height: 44px;
+    font-weight: bold;
+}
+
+.base-button:disabled {
+    background-color: var(--buttonDisabled);
+} 
+
+
