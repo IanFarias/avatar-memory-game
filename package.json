@@ -20,7 +20,7 @@
     "typescript": "^4.7.2",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://IanFarias.github.io/avatar-memory-game",
+  "homepage": "https://ianfarias.github.io/avatar-memory-game",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -46,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
