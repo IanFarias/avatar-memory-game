@@ -1,5 +1,6 @@
 import './button.css'
 import './variants/button-primary.css'
+import './variants/button-start.css'
 
 type ButtonProps = {
   children?: React.ReactNode
@@ -20,7 +21,7 @@ interface ButtonVariants {
 const BUTTON_VARIANTS: ButtonVariants = {
   primary: 'button-primary',
   secondary: 'button-secondary',
-  start: 'button-secondary',
+  start: 'button-start',
 }
 
 const getButtonVariant = (variant: string | undefined): string => {

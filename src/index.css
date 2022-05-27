@@ -9,6 +9,11 @@
   --white: #fff;
   --buttonPrimary: #027373;
   --buttonDisabled: #c7c7c7;
+  --buttonStart: #bf2424;
+  --buttonStartHover: #d45353;
+  --buttonStartBorderHover: #963b3b;
+  --buttonStartBorder: #7f1919;
+  --grey: #c1c1c1;
 }
 
 body {
