@@ -1,0 +1,32 @@
+.base-button {
+    border: none;
+    cursor: pointer;
+    min-width: 44px;
+    font-size: 18px;
+    min-height: 44px;
+    font-weight: bold;
+}
+
+.base-button:disabled {
+    background-color: var(--buttonDisabled);
+} 
+
+.primary {
+    width: 350px;
+    color: var(--white);
+    border-radius: 5px;
+    background-color: var(--buttonPrimary);
+    transition: .2s background-color;
+}
+
+.primary:hover {
+    background-color: var(--dark);
+}
+
+.primary:active {
+    background-color: var(--buttonPrimary);
+}
+
+.primary:disabled {
+    background-color: var(--buttonDisabled);
+} 

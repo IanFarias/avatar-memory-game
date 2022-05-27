@@ -31,12 +31,10 @@
     font-weight: bold;
 }
 
-/*
-
-#027373
-#038C7F
-#A9D9D0
-#F2E7DC
-#0D0D0D
-
-*/
+.initial-screen--container {
+    height: calc(100vh - 92px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,4 +1,5 @@
 import { appa, logo } from '../../../assets'
+import { Button } from '../../components/button/button'
 import './initial-screen.css'
 
 const InitialScreen = () => {
@@ -10,8 +11,13 @@ const InitialScreen = () => {
           <img src={appa} alt="Personagem Appa voando" />
         </div>
       </header>
-      <main>
-        <h1>tela inicial</h1>
+      <main className="initial-screen--container container">
+        <h1>Jogo da Memória</h1>
+        <div>
+          <Button onClick={() => console.log('COMECAR')} variant="primary">
+            Jogar
+          </Button>
+        </div>
       </main>
     </>
   )
