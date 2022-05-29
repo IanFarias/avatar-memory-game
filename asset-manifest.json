@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/avatar-memory-game/static/css/main.b43ffa46.css",
-    "main.js": "/avatar-memory-game/static/js/main.0f779b4f.js",
+    "main.js": "/avatar-memory-game/static/js/main.77f1850d.js",
     "static/media/snowkorra.png": "/avatar-memory-game/static/media/snowkorra.ffd32b7ce0f8acba022f.png",
     "static/media/cardbackground.png": "/avatar-memory-game/static/media/cardbackground.ed2e527bfba03c5b5d19.png",
     "static/media/aang.png": "/avatar-memory-game/static/media/aang.532b6130ddae296fb505.png",
@@ -19,10 +19,10 @@
     "static/media/logo.svg": "/avatar-memory-game/static/media/logo.56bb722adca1d8000b39f650c4c2c6cf.svg",
     "index.html": "/avatar-memory-game/index.html",
     "main.b43ffa46.css.map": "/avatar-memory-game/static/css/main.b43ffa46.css.map",
-    "main.0f779b4f.js.map": "/avatar-memory-game/static/js/main.0f779b4f.js.map"
+    "main.77f1850d.js.map": "/avatar-memory-game/static/js/main.77f1850d.js.map"
   },
   "entrypoints": [
     "static/css/main.b43ffa46.css",
-    "static/js/main.0f779b4f.js"
+    "static/js/main.77f1850d.js"
   ]
 }
