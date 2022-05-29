@@ -1,0 +1,5 @@
+export { createPairOfCards } from './memory-game/index'
+export { createCards } from './memory-game/index'
+export { verifyPairOfCards } from './memory-game/index'
+export { flipCard } from './memory-game/index'
+export { verifyEndGame } from './memory-game/index'

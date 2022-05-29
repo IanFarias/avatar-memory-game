@@ -1,0 +1,41 @@
+.card {
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+    background-color: var(--primary);
+    transform-style: preserve-3d;
+
+    transition: transform 0.5s;
+}
+
+.card-front {
+    transform: rotateY(180deg);
+}
+
+.card-front > img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.flip {
+    transform: rotateY(180deg);
+}
+
+.card-back {
+    position: absolute;
+    top: 0px;
+    background-image: url(../../../assets/img/cardbackground.png);
+}
+
+.card-back,
+.card-front {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+}
