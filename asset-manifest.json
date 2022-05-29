@@ -1,18 +1,28 @@
 {
   "files": {
-    "main.css": "/avatar-memory-game/static/css/main.aae84ce6.css",
-    "main.js": "/avatar-memory-game/static/js/main.916bcdac.js",
+    "main.css": "/avatar-memory-game/static/css/main.7ebaa877.css",
+    "main.js": "/avatar-memory-game/static/js/main.eb7cee40.js",
+    "static/media/snowkorra.png": "/avatar-memory-game/static/media/snowkorra.ffd32b7ce0f8acba022f.png",
+    "static/media/cardbackground.png": "/avatar-memory-game/static/media/cardbackground.ed2e527bfba03c5b5d19.png",
+    "static/media/aang.png": "/avatar-memory-game/static/media/aang.532b6130ddae296fb505.png",
+    "static/media/toph.png": "/avatar-memory-game/static/media/toph.b377b81ed1ece4ec51ba.png",
+    "static/media/sokka.png": "/avatar-memory-game/static/media/sokka.73a1046c501cb6dac41d.png",
+    "static/media/palace.png": "/avatar-memory-game/static/media/palace.c8a61919ffb5535b9a4b.png",
+    "static/media/spiritualkorra.png": "/avatar-memory-game/static/media/spiritualkorra.d8a364e504432dce4d68.png",
     "static/media/korra.png": "/avatar-memory-game/static/media/korra.dd21baeee50b2670efdb.png",
+    "static/media/katara.png": "/avatar-memory-game/static/media/katara.407712d22d1e36a00dc9.png",
+    "static/media/azula.png": "/avatar-memory-game/static/media/azula.f35ef88bdee4760b9e50.png",
+    "static/media/zuko.png": "/avatar-memory-game/static/media/zuko.4ae40c16c29d90727783.png",
     "static/media/initialbackground.jpg": "/avatar-memory-game/static/media/initialbackground.d6939f29e11162225722.jpg",
     "static/media/herculanum.ttf": "/avatar-memory-game/static/media/herculanum.80cad06343825296cbe0.ttf",
     "static/media/appa.svg": "/avatar-memory-game/static/media/appa.316d76eb1b8381a5f64a3c26bbfab4c6.svg",
     "static/media/logo.svg": "/avatar-memory-game/static/media/logo.56bb722adca1d8000b39f650c4c2c6cf.svg",
     "index.html": "/avatar-memory-game/index.html",
-    "main.aae84ce6.css.map": "/avatar-memory-game/static/css/main.aae84ce6.css.map",
-    "main.916bcdac.js.map": "/avatar-memory-game/static/js/main.916bcdac.js.map"
+    "main.7ebaa877.css.map": "/avatar-memory-game/static/css/main.7ebaa877.css.map",
+    "main.eb7cee40.js.map": "/avatar-memory-game/static/js/main.eb7cee40.js.map"
   },
   "entrypoints": [
-    "static/css/main.aae84ce6.css",
-    "static/js/main.916bcdac.js"
+    "static/css/main.7ebaa877.css",
+    "static/js/main.eb7cee40.js"
   ]
 }
