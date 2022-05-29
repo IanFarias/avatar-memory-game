@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { CARDS } from '../../../constants'
-import { createCards, verifyPairOfCards, flipCard, verifyEndGame } from '../../../core'
+import { createCards, verifyPairOfCards, flipCard, verifyEndGame, shuffleCards } from '../../../core'
 import { CardSelected } from '../../../core/types'
 import { ICard } from '../../../interfaces'
 import { Card } from '../../components'
@@ -23,14 +23,14 @@ const MemoryGameScreen = () => {
   const [gameOwn, setGameOwn] = useState<boolean>(false)
   const [pairsFounded, setPairsFounded] = useState<number>(0)
   const [cardSelected, setCardSelected] = useState<null | CardSelected>(null)
-  const [cards, setCards] = useState<ICard[]>([...createCards(CARDS)])
+  const [cards, setCards] = useState<ICard[]>([...shuffleCards(createCards(CARDS))])
 
   useEffect(() => {
     setCards(current => showCards(current))
 
     const timeout = setTimeout(() => {
       setCards(current => hideCards(current))
-    }, 1500)
+    }, 1000)
 
     return () => clearTimeout(timeout)
   }, [])
