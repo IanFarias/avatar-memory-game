@@ -1,7 +1,7 @@
 .board {
     height: 80%;
     display: grid;
-    gap: 15px;
+    gap: 5px;
     justify-items: center;
     grid-template-columns: 150px 150px 150px 150px;
     grid-template-rows: 150px 150px 150px 150px; 
