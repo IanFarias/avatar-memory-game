@@ -1,0 +1,17 @@
+.end-game--container {
+    text-align: center;
+    font-family: avatarFont;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: var(--white);
+}
+
+.end-game--container h1 {
+    margin-bottom: 40px;
+}
+
+.end-game--container button {
+    width: 300px;
+    margin: 20px;
+}

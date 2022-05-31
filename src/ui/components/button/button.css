@@ -2,9 +2,13 @@
     border: none;
     cursor: pointer;
     min-width: 44px;
+    width: 350px;
     font-size: 18px;
     min-height: 44px;
     font-weight: bold;
+    border-radius: 5px;
+    transition: .2s background-color;
+    font-family: avatarFont;
 }
 
 .base-button:disabled {

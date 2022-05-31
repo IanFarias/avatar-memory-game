@@ -1,13 +1,12 @@
 .button-primary {
-    width: 350px;
     color: var(--white);
-    border-radius: 5px;
     background-color: var(--buttonPrimary);
-    transition: .2s background-color;
+    box-shadow: 2px 2px 0px 1px var(--buttonPrimaryBorder);
 }
 
 .button-primary:hover {
-    background-color: var(--dark);
+    background-color: var(--buttonPrimaryHover);
+    box-shadow: 2px 2px 0px 1px var(--buttonPrimaryBorderHover);
 }
 
 .button-primary:active {

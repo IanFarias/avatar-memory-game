@@ -1,0 +1,14 @@
+.button-secondary {
+    color: var(--textSecondary);
+    background-color: var(--buttonSecondary);
+    border: 1px solid var(--buttonSecondaryBorder);
+    box-shadow: 2px 2px 0px 1px var(--buttonSecondaryBorder);
+}
+
+.button-secondary:hover {
+    background-color: var(--buttonSecondaryHover);
+}
+
+.button-secondary:active {
+    background-color: var(--buttonSecondary);
+}

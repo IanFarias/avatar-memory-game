@@ -1,6 +1,7 @@
 import './button.css'
 import './variants/button-primary.css'
 import './variants/button-start.css'
+import './variants/button-secondary.css'
 
 type ButtonProps = {
   children?: React.ReactNode
