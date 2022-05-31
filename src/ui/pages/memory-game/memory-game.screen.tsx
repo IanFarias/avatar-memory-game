@@ -3,7 +3,7 @@ import { CARDS } from '../../../constants'
 import { createCards, verifyPairOfCards, flipCard, verifyEndGame, shuffleCards } from '../../../core'
 import { CardSelected } from '../../../core/types'
 import { ICard } from '../../../interfaces'
-import { Card } from '../../components'
+import { Card, Header } from '../../components'
 import { Board, EndGame } from './components'
 import './memory-game.screen.css'
 
@@ -73,26 +73,29 @@ const MemoryGameScreen = () => {
   }
 
   return (
-    <main className="memory-game--container">
-      {!gameOwn && cards && (
-        <Board>
-          {cards.map((card, index) => {
-            return (
-              <Card
-                key={index}
-                id={card?.id}
-                pairId={card?.pairId}
-                clickable={card?.clickable}
-                flipped={card?.isTurnedOver}
-                image={card?.image}
-                onClick={handleClick}
-              />
-            )
-          })}
-        </Board>
-      )}
-      {gameOwn && <EndGame />}
-    </main>
+    <>
+      <Header menu />
+      <main className="memory-game--container">
+        {!gameOwn && cards && (
+          <Board>
+            {cards.map((card, index) => {
+              return (
+                <Card
+                  key={index}
+                  id={card?.id}
+                  pairId={card?.pairId}
+                  clickable={card?.clickable}
+                  flipped={card?.isTurnedOver}
+                  image={card?.image}
+                  onClick={handleClick}
+                />
+              )
+            })}
+          </Board>
+        )}
+        {gameOwn && <EndGame />}
+      </main>
+    </>
   )
 }
 
