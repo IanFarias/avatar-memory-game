@@ -5,15 +5,23 @@
   --dark: #054949;
   --text: #F2E7DC;
   --textSecondary: #0D0D0D;
+  --backgroundGame: #22256a;
   --black: #000000;
   --white: #fff;
-  --buttonPrimary: #027373;
+  --grey: #c1c1c1;
+  --boardBorder: #522c2c;
   --buttonDisabled: #c7c7c7;
+  --buttonPrimary: #027373;
+  --buttonPrimaryHover: #05a796;
+  --buttonPrimaryBorder: #034646;
+  --buttonPrimaryBorderHover: #07776c;
+  --buttonSecondary: #fff;
+  --buttonSecondaryHover: #c4c4c4;
+  --buttonSecondaryBorder: #252525;
   --buttonStart: #bf2424;
   --buttonStartHover: #d45353;
-  --buttonStartBorderHover: #963b3b;
   --buttonStartBorder: #7f1919;
-  --grey: #c1c1c1;
+  --buttonStartBorderHover: #963b3b;
 }
 
 body {

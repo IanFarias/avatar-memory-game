@@ -6,7 +6,7 @@
     border-radius: 10px;
     background-color: var(--primary);
     transform-style: preserve-3d;
-
+    box-shadow: -2px 3px 5px 0px var(--black);
     transition: transform 0.5s;
 }
 

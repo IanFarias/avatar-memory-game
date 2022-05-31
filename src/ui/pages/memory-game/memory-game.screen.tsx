@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react'
+import { aangtheme, zukotheme } from '../../../assets'
 import { CARDS } from '../../../constants'
 import { createCards, verifyPairOfCards, flipCard, verifyEndGame, shuffleCards } from '../../../core'
 import { CardSelected } from '../../../core/types'
 import { ICard } from '../../../interfaces'
 import { Card } from '../../components'
-import { Board } from './components'
+import { Board, EndGame } from './components'
 import './memory-game.screen.css'
 
 const showCards = (cards: ICard[]): ICard[] => {
@@ -91,6 +92,7 @@ const MemoryGameScreen = () => {
           })}
         </Board>
       )}
+      {gameOwn && <EndGame />}
     </main>
   )
 }

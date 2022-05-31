@@ -2,10 +2,8 @@
     width: 300px;
     font-size: 28px;
     color: var(--white);
-    border-radius: 5px;
     font-family: avatarFont;
     background-color: var(--buttonStart);
-    transition: .2s background-color;
     box-shadow: 2px 2px 0px 1px var(--buttonStartBorder);
 }
 
