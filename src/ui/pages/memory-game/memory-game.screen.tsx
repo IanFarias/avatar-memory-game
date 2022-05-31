@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import { aangtheme, zukotheme } from '../../../assets'
 import { CARDS } from '../../../constants'
 import { createCards, verifyPairOfCards, flipCard, verifyEndGame, shuffleCards } from '../../../core'
 import { CardSelected } from '../../../core/types'
