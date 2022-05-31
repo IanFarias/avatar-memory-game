@@ -8,7 +8,7 @@ const InitialScreen = () => {
   const history = useHistory()
 
   const handleClick = () => {
-    history.push(PATHS.GAME)
+    history.push(PATHS.MENU)
   }
 
   return (
