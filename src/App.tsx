@@ -8,6 +8,7 @@ function App() {
     <Switch>
       <Route {...ROUTER.INITIAL} exact />
       <Route {...ROUTER.GAME} exact />
+      <Route {...ROUTER.MENU} exact />
     </Switch>
   )
 }
