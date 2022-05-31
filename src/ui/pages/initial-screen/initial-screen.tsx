@@ -1,6 +1,6 @@
 import { useHistory } from 'react-router-dom'
-import { appa, logo } from '../../../assets'
 import PATHS from '../../../routes/paths'
+import { Header } from '../../components'
 import { Button } from '../../components/button/button'
 import './initial-screen.css'
 
@@ -13,12 +13,7 @@ const InitialScreen = () => {
 
   return (
     <>
-      <header className="initial--header">
-        <div className="initial--header--content-wrapper">
-          <img src={logo} alt="Simbolos dos quatro elementos, agua, fogo, terra e ar" />
-          <img src={appa} alt="Personagem Appa voando" />
-        </div>
-      </header>
+      <Header />
       <main className="initial-screen--container ">
         <div className="initial-screen--wrapper container">
           <div className="initial-screen--title-wrapper">
