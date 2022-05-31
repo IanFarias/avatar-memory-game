@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/avatar-memory-game/static/css/main.b43ffa46.css",
-    "main.js": "/avatar-memory-game/static/js/main.77f1850d.js",
+    "main.css": "/avatar-memory-game/static/css/main.2c2b93b6.css",
+    "main.js": "/avatar-memory-game/static/js/main.204c90a9.js",
     "static/media/snowkorra.png": "/avatar-memory-game/static/media/snowkorra.ffd32b7ce0f8acba022f.png",
     "static/media/cardbackground.png": "/avatar-memory-game/static/media/cardbackground.ed2e527bfba03c5b5d19.png",
     "static/media/aang.png": "/avatar-memory-game/static/media/aang.532b6130ddae296fb505.png",
+    "static/media/zukotheme.png": "/avatar-memory-game/static/media/zukotheme.8de65d7f1325f174e38d.png",
     "static/media/toph.png": "/avatar-memory-game/static/media/toph.b377b81ed1ece4ec51ba.png",
     "static/media/sokka.png": "/avatar-memory-game/static/media/sokka.73a1046c501cb6dac41d.png",
     "static/media/palace.png": "/avatar-memory-game/static/media/palace.c8a61919ffb5535b9a4b.png",
+    "static/media/aangtheme.png": "/avatar-memory-game/static/media/aangtheme.eff027d8f6b4ff973f0d.png",
     "static/media/spiritualkorra.png": "/avatar-memory-game/static/media/spiritualkorra.d8a364e504432dce4d68.png",
     "static/media/korra.png": "/avatar-memory-game/static/media/korra.dd21baeee50b2670efdb.png",
     "static/media/katara.png": "/avatar-memory-game/static/media/katara.407712d22d1e36a00dc9.png",
@@ -18,11 +20,11 @@
     "static/media/appa.svg": "/avatar-memory-game/static/media/appa.316d76eb1b8381a5f64a3c26bbfab4c6.svg",
     "static/media/logo.svg": "/avatar-memory-game/static/media/logo.56bb722adca1d8000b39f650c4c2c6cf.svg",
     "index.html": "/avatar-memory-game/index.html",
-    "main.b43ffa46.css.map": "/avatar-memory-game/static/css/main.b43ffa46.css.map",
-    "main.77f1850d.js.map": "/avatar-memory-game/static/js/main.77f1850d.js.map"
+    "main.2c2b93b6.css.map": "/avatar-memory-game/static/css/main.2c2b93b6.css.map",
+    "main.204c90a9.js.map": "/avatar-memory-game/static/js/main.204c90a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.b43ffa46.css",
-    "static/js/main.77f1850d.js"
+    "static/css/main.2c2b93b6.css",
+    "static/js/main.204c90a9.js"
   ]
 }
