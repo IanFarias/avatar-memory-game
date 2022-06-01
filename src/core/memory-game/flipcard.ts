@@ -1,8 +1,8 @@
 import { ICard } from "../../interfaces";
 
 
-export const flipCard = (card: ICard): ICard => {
-    const cardFlipped = { ...card, isTurnedOver: !card.isTurnedOver, clickable: !card.clickable } 
+export const flipCard = (card: ICard, isTurnedOver: boolean, clickable: boolean): ICard => {
+    const cardFlipped = { ...card, isTurnedOver: isTurnedOver, clickable: clickable } 
      
     return cardFlipped
 }
