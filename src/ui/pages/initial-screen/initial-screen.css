@@ -24,14 +24,6 @@
     margin-bottom: 80px;
 }
 
-.initial-screen--wrapper  h1, 
-.initial-screen--wrapper  h2 {
-    font-size: 48px;
-    color: var(--white);
-    text-shadow: 0 0 4px var(--black);
-    font-family: avatarFont;
-}
-
 /* @keyframes border-animation{
     0% {
         border-color: var(--dark);

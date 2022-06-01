@@ -1,6 +1,6 @@
 import { useHistory } from 'react-router-dom'
 import PATHS from '../../../routes/paths'
-import { Header } from '../../components'
+import { Header, Title } from '../../components'
 import { Button } from '../../components/button/button'
 import './initial-screen.css'
 
@@ -17,8 +17,8 @@ const InitialScreen = () => {
       <main className="initial-screen--container ">
         <div className="initial-screen--wrapper container">
           <div className="initial-screen--title-wrapper">
-            <h1>Avatar</h1>
-            <h2>Jogo da memória</h2>
+            <Title>Avatar</Title>
+            <Title as="h2">Jogo da memória</Title>
           </div>
           <div className="initial-screen--options-container">
             <Button onClick={handleClick} variant="start">

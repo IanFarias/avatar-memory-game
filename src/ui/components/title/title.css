@@ -1,0 +1,6 @@
+.page-title {
+    font-size: 48px;
+    color: var(--white);
+    text-shadow: 0 0 4px var(--black);
+    font-family: avatarFont;
+}

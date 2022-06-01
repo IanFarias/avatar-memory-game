@@ -1,0 +1,23 @@
+.menu--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh - 92px);
+    font-family: avatarFont;
+    background-position: center;
+    background-image: url(../../../assets/img/initialbackground.jpg);
+}
+
+.menu--options-container {
+    min-height: 50%;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.menu--options-container button {
+    margin: 20px;
+}
