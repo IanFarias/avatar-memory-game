@@ -26,9 +26,9 @@ const HeaderMenu = () => {
   return (
     <nav className="header--menu">
       <ul>
-        {OPTIONS_MENU.map(option => {
+        {OPTIONS_MENU.map((option, index) => {
           return (
-            <li>
+            <li key={index}>
               <Link to={option.path}>{option.label}</Link>
             </li>
           )

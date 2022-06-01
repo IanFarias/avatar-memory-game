@@ -22,7 +22,7 @@ const hideCards = (cards: ICard[]): ICard[] => {
 const MemoryGameScreen = () => {
   const [gameOwn, setGameOwn] = useState<boolean>(false)
   const [pairsFounded, setPairsFounded] = useState<number>(0)
-  const [cardSelected, setCardSelected] = useState<null | CardSelected>(null)
+  const [cardSelected, setCardSelected] = useState<CardSelected | null>(null)
   const [cards, setCards] = useState<ICard[]>([...shuffleCards(createCards(CARDS))])
 
   useEffect(() => {
@@ -41,9 +41,9 @@ const MemoryGameScreen = () => {
     }
   }, [pairsFounded, cards.length])
 
-  const handleClick = (currentCard: CardSelected) => {
+  const handleCardClick = (currentCard: CardSelected) => {
     //vira a carta selecionada
-    setCards(current => current.map(card => (card.id === currentCard.id ? flipCard(card) : card)))
+    setCards(current => current.map(card => (card.id === currentCard.id ? flipCard(card, true, false) : card)))
 
     //guarda essa carta caso seja a primeira de uma dupla selecionada
     if (!cardSelected) {
@@ -66,7 +66,9 @@ const MemoryGameScreen = () => {
     //caso não for o seu par, vira as cartas para baixo
     setTimeout(() => {
       setCards(currentValue =>
-        currentValue.map(card => (card.id === cardSelected.id || card.id === currentCard.id ? flipCard(card) : card))
+        currentValue.map(card =>
+          card.id === cardSelected.id || card.id === currentCard.id ? flipCard(card, false, true) : card
+        )
       )
       setCardSelected(null)
     }, 500)
@@ -87,7 +89,7 @@ const MemoryGameScreen = () => {
                   clickable={card?.clickable}
                   flipped={card?.isTurnedOver}
                   image={card?.image}
-                  onClick={handleClick}
+                  onClick={handleCardClick}
                 />
               )
             })}
