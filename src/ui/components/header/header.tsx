@@ -13,6 +13,10 @@ const OPTIONS_MENU = [
     label: 'Início',
   },
   {
+    path: PATHS.MENU,
+    label: 'Menu',
+  },
+  {
     path: PATHS.GAME,
     label: 'Jogo da memória',
   },
