@@ -7,7 +7,7 @@ const EndGame = () => {
   const history = useHistory()
 
   const handleClickGoBack = () => {
-    history.push(PATHS.INITIAL)
+    history.push(PATHS.MENU)
   }
 
   const handleClickRestart = () => {
@@ -18,11 +18,11 @@ const EndGame = () => {
     <div className="end-game--container">
       <h1 role="alert">Você ganhou!</h1>
       <h2>Todos as pares encontrados</h2>
-      <Button onClick={handleClickGoBack} variant="primary">
-        Voltar ao início
-      </Button>
-      <Button onClick={handleClickRestart} variant="secondary">
+      <Button onClick={handleClickRestart} variant="primary">
         Jogar novamente
+      </Button>
+      <Button onClick={handleClickGoBack} variant="secondary">
+        Menu Principal
       </Button>
     </div>
   )

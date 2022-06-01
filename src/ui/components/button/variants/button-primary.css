@@ -12,7 +12,9 @@
 }
 
 .button-primary:active {
+    color: var(--white);
     background-color: var(--buttonPrimary);
+    box-shadow: 2px 2px 0px 1px var(--buttonPrimaryBorder);
 }
 
 .button-primary:disabled {
