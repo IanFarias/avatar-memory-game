@@ -5,7 +5,7 @@
     box-shadow: 2px 2px 0px 1px var(--buttonSecondaryBorder);
 }
 
-.button-secondary:hover {
+.button-secondary:hover, .button-secondary:focus-visible {
     background-color: var(--buttonSecondaryHover);
 }
 

@@ -4,13 +4,17 @@
     box-shadow: 2px 2px 0px 1px var(--buttonPrimaryBorder);
 }
 
-.button-primary:hover {
+.button-primary:hover, .button-primary:focus-visible {
+    color: var(--black);
+    outline: 0;
     background-color: var(--buttonPrimaryHover);
     box-shadow: 2px 2px 0px 1px var(--buttonPrimaryBorderHover);
 }
 
 .button-primary:active {
+    color: var(--white);
     background-color: var(--buttonPrimary);
+    box-shadow: 2px 2px 0px 1px var(--buttonPrimaryBorder);
 }
 
 .button-primary:disabled {

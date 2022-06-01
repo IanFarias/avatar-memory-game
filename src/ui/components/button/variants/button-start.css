@@ -7,7 +7,7 @@
     box-shadow: 2px 2px 0px 1px var(--buttonStartBorder);
 }
 
-.button-start:hover {
+.button-start:hover, .button-start:focus-visible {
     background-color: var(--buttonStartHover);
     box-shadow: 2px 2px 0px 1px var(--buttonStartBorderHover);
 }
