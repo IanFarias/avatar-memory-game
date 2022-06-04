@@ -70,8 +70,8 @@ const MemoryGameScreen = () => {
           card.id === cardSelected.id || card.id === currentCard.id ? flipCard(card, false, true) : card
         )
       )
-      setCardSelected(null)
     }, 500)
+    setCardSelected(null)
   }
 
   return (
