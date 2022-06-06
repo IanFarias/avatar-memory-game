@@ -4,5 +4,5 @@
     align-content: center;
     justify-items: center;
     grid-template-columns: repeat(5, minmax(150px, 150px));
-    grid-template-rows: repeat(5, minmax(150px, 150px));
+    grid-template-rows: repeat(4, minmax(150px, 150px));
 }

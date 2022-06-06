@@ -1,4 +1,4 @@
-import { InitialScreen, MemoryGameScreen, MenuScreen } from "../ui/pages";
+import { GalleryScreen, InitialScreen, MemoryGameScreen, MenuScreen } from "../ui/pages";
 import PATHS from "./paths";
 
 const ROUTER = {
@@ -13,6 +13,10 @@ const ROUTER = {
     MENU: {
         path: PATHS.MENU,
         component: () => <MenuScreen />
+    },
+    GALLERY: {
+        path: PATHS.GALLERY,
+        component: () => <GalleryScreen />
     }
 }
 

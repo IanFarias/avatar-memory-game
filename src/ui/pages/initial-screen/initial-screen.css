@@ -1,9 +1,4 @@
 .initial-screen--container {
-    height: calc(100vh - 92px);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
     background-color: var(--terciary);
     background-position: center;
     background-image: url(../../../assets/img/initialbackground.jpg);

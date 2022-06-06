@@ -1,6 +1,6 @@
 import { useHistory } from 'react-router-dom'
 import PATHS from '../../../routes/paths'
-import { Button, Header, Title } from '../../components'
+import { Button, Header, Container, Title } from '../../components'
 import './menu.screen.css'
 
 const MenuScreen = () => {
@@ -9,7 +9,7 @@ const MenuScreen = () => {
   return (
     <>
       <Header />
-      <main className="menu--container">
+      <Container className="menu--container">
         <div className="menu--options-container">
           <Title>Menu Inicial</Title>
           <Button variant="primary" onClick={() => history.push(PATHS.INITIAL)}>
@@ -18,8 +18,11 @@ const MenuScreen = () => {
           <Button variant="primary" onClick={() => history.push(PATHS.GAME)}>
             Jogo da Memória
           </Button>
+          <Button variant="primary" onClick={() => history.push(PATHS.GALLERY)}>
+            Galeria
+          </Button>
         </div>
-      </main>
+      </Container>
     </>
   )
 }

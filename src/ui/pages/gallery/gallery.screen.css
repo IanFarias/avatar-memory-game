@@ -1,0 +1,32 @@
+.gallery--container {
+    height: 100%;
+    
+}
+
+.gallery--title {
+    margin-top: 50px;
+}
+
+.feed-card {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    width: 700px;
+
+    border: 1px solid black;
+}
+
+.feed-card  img{
+    height: auto;
+    width: 300px;
+
+}
+
+.feed-card--content{
+    padding-left: 20px;
+}
+
+.feed-card--content > a{
+    display: inline-block;
+    margin-top: 20px;
+}

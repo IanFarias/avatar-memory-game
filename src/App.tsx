@@ -7,8 +7,9 @@ function App() {
   return (
     <Switch>
       <Route {...ROUTER.INITIAL} exact />
-      <Route {...ROUTER.GAME} exact />
       <Route {...ROUTER.MENU} exact />
+      <Route {...ROUTER.GAME} exact />
+      <Route {...ROUTER.GALLERY} exact />
     </Switch>
   )
 }
