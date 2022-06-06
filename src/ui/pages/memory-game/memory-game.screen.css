@@ -1,8 +1,6 @@
 .memory-game--container {
-    display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background-position: center;
     background-color: var(--backgroundGame);
     background-image: url(../../../assets/img/initialbackground.jpg);
 }

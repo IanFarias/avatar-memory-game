@@ -3,7 +3,7 @@ import { CARDS } from '../../../constants'
 import { createCards, verifyPairOfCards, flipCard, verifyEndGame, shuffleCards } from '../../../core'
 import { CardSelected } from '../../../core/types'
 import { ICard } from '../../../interfaces'
-import { Card, Header } from '../../components'
+import { Card, Container, Header } from '../../components'
 import { Board, EndGame } from './components'
 import './memory-game.screen.css'
 
@@ -77,7 +77,7 @@ const MemoryGameScreen = () => {
   return (
     <>
       <Header menu />
-      <main className="memory-game--container">
+      <Container className="memory-game--container">
         {!gameOwn && cards && (
           <Board>
             {cards.map((card, index) => {
@@ -96,7 +96,7 @@ const MemoryGameScreen = () => {
           </Board>
         )}
         {gameOwn && <EndGame />}
-      </main>
+      </Container>
     </>
   )
 }
