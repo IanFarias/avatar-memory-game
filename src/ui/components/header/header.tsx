@@ -9,16 +9,16 @@ type HeaderProps = {
 
 const OPTIONS_MENU = [
   {
-    path: PATHS.INITIAL,
-    label: 'Início',
-  },
-  {
     path: PATHS.MENU,
     label: 'Menu',
   },
   {
     path: PATHS.GAME,
     label: 'Jogo da memória',
+  },
+  {
+    path: PATHS.GALLERY,
+    label: 'Galeria',
   },
 ]
 
