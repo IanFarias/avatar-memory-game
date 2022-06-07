@@ -13,7 +13,7 @@ const FeedCard = ({ src, artist, url }: ImageProps) => {
     <div className="feed-card">
       <img src={src} alt="" />
       <div className="feed-card--content">
-        <h2>Artista {artist}</h2>
+        <h2 aria-label={`Artista ${artist}`}>{artist}</h2>
         <a target="_blank" rel="noreferrer" href={url}>
           Link para a foto
         </a>
@@ -28,9 +28,11 @@ const GalleryScreen = () => {
       <Header menu />
       <Container className="gallery--container">
         <Title className="gallery--title">Galeria</Title>
-        {GALLERY_IMAGES.map((image, index) => {
-          return <FeedCard key={index} src={image.src} artist={image.artist} url={image.url} />
-        })}
+        <div className="feed">
+          {GALLERY_IMAGES.map((image, index) => {
+            return <FeedCard key={index} src={image.src} artist={image.artist} url={image.url} />
+          })}
+        </div>
       </Container>
     </>
   )
