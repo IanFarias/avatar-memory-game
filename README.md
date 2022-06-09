@@ -2,7 +2,8 @@
 
 ## Sobre
 
-Jogo da memória com uma temática de Avatar The Last Air Bender e Avatar Legend of Korra. 
+Jogo da memória com uma temática de Avatar The Last Air Bender e Avatar Legend of Korra.
+O objetivo do projeto era construir uma aplicação utilizando TypeScript + React focando na tipagem de dados.
 
 ### Tecnologias
 React, TypeScript, react-router-dom, github actions, github pages
