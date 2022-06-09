@@ -35,6 +35,7 @@ const Link = ({ href, variant, variantLinkButton = 'primary', children, as = 'li
         <NavLink
           className={`base-link ${getLinkVariant(variant)} ${getVariantLinkButton(variant, variantLinkButton)}`}
           to={href}
+          exact
           {...props}
         >
           {children}

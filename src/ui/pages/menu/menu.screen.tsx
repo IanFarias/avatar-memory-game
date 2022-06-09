@@ -7,10 +7,10 @@ const MenuScreen = () => {
     <>
       <Header />
       <Container className="menu--container">
-        <div className="menu--content-container" role="menu">
+        <div className="menu--content-container">
           <Title>Menu Inicial</Title>
 
-          <div className="menu--options-container">
+          <div className="menu--options-container" role="menu">
             <Link variant="button" as="route-link" href={PATHS.INITIAL}>
               Inicio
             </Link>
