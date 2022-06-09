@@ -11,13 +11,13 @@ const MenuScreen = () => {
           <Title>Menu Inicial</Title>
 
           <div className="menu--options-container">
-            <Link variant="button" href={PATHS.INITIAL}>
+            <Link variant="button" as="route-link" href={PATHS.INITIAL}>
               Inicio
             </Link>
-            <Link variant="button" href={PATHS.GAME}>
+            <Link variant="button" as="route-link" href={PATHS.GAME}>
               Jogo da Memória
             </Link>
-            <Link variant="button" href={PATHS.GALLERY}>
+            <Link variant="button" as="route-link" href={PATHS.GALLERY}>
               Galeria
             </Link>
           </div>
