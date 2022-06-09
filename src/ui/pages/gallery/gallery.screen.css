@@ -4,6 +4,8 @@
 }
 
 .gallery--title {
+    color: var(--black);
+    text-shadow: none;
     margin-top: 50px;
 }
 
