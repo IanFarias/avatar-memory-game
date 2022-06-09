@@ -3,9 +3,9 @@
     background-image: url(../../../assets/img/initialbackground.jpg);
 }
 
-.menu--options-container {
+.menu--content-container {
     min-height: 50%;
-    border-radius: 4px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,6 +13,12 @@
 
 }
 
-.menu--options-container button {
+.menu--options-container {
+    min-height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu--options-container a {
     margin: 20px;
 }

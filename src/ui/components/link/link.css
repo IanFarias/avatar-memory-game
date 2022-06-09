@@ -1,0 +1,15 @@
+.base-link {
+    display: inline-flex;
+}
+
+.link-button {
+    height: 44px;
+    width: 350px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
