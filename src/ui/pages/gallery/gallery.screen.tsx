@@ -11,7 +11,7 @@ type ImageProps = {
 const FeedCard = ({ src, artist, url }: ImageProps) => {
   return (
     <div className="feed-card">
-      <img src={src} alt="" />
+      <img src={src} alt={`arte do artista: ${artist}`} />
       <div className="feed-card--content">
         <h2 aria-label={`Artista ${artist}`}>{artist}</h2>
         <a target="_blank" rel="noreferrer" href={url}>
