@@ -5,7 +5,7 @@
 Jogo da memória com uma temática de Avatar The Last Air Bender e Avatar Legend of Korra. 
 
 ### Tecnologias
-React, TypeScript, react-router-dom, github actions
+React, TypeScript, react-router-dom, github actions, github pages
 
 ### Deploy
 https://ianfarias.github.io/avatar-memory-game/
