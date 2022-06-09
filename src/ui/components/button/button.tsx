@@ -19,7 +19,7 @@ interface ButtonVariants {
   [key: string]: string
 }
 
-const BUTTON_VARIANTS: ButtonVariants = {
+export const BUTTON_VARIANTS: ButtonVariants = {
   primary: 'button-primary',
   secondary: 'button-secondary',
   start: 'button-start',

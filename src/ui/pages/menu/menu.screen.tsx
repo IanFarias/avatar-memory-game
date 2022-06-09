@@ -1,26 +1,26 @@
-import { useHistory } from 'react-router-dom'
 import PATHS from '../../../routes/paths'
-import { Button, Header, Container, Title } from '../../components'
+import { Header, Container, Title, Link } from '../../components'
 import './menu.screen.css'
 
 const MenuScreen = () => {
-  const history = useHistory()
-
   return (
     <>
       <Header />
       <Container className="menu--container">
-        <div className="menu--options-container">
+        <div className="menu--content-container" role="menu">
           <Title>Menu Inicial</Title>
-          <Button variant="primary" onClick={() => history.push(PATHS.INITIAL)}>
-            Inicio
-          </Button>
-          <Button variant="primary" onClick={() => history.push(PATHS.GAME)}>
-            Jogo da Memória
-          </Button>
-          <Button variant="primary" onClick={() => history.push(PATHS.GALLERY)}>
-            Galeria
-          </Button>
+
+          <div className="menu--options-container">
+            <Link variant="button" href={PATHS.INITIAL}>
+              Inicio
+            </Link>
+            <Link variant="button" href={PATHS.GAME}>
+              Jogo da Memória
+            </Link>
+            <Link variant="button" href={PATHS.GALLERY}>
+              Galeria
+            </Link>
+          </div>
         </div>
       </Container>
     </>
